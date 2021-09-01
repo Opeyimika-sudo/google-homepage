@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    align-items: baseline;
+}
+
+li {
+    padding: 0 20px;
+}
+
+.container a:link {
+    text-decoration: none;
+    color: black;
+}   
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.the-koko {
+    padding-top: 40px;
+}
+
+.google-img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#google-search {
+    text-align: center;
+}
+
+input {
+    padding: 12px 120px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #eee;
+    width: 40%;
+}
+
+input:hover {
+    box-shadow: 0 0 5px 1px;
+}
+
+#search-icon {
+    position: relative;
+    right: -350px;
+    top: -60px;
+}
+
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 15px;
+    border: none;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 1px solid #f4f4ff;
+    cursor: pointer;
+}
+
+#nav-2 {
+    display: flex;
+    justify-content: center;  
+    align-items: baseline;  
+}
+
+#nav-2 li {
+    list-style: none;  
+}
+
+#nav-2 a:link {
+    text-decoration: none;
+}
+
+#nav-2 a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #F2F2F2;
+    color: #9EA1A5;
+    position: fixed;
+    width: 100%;
+    margin: -8px;
+    height: 200px;
+    z-index: 4;
+}
+
+#footer-nigeria {
+    border-bottom: 1px solid #DADCE0;
+    padding-left: 50px;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-part li {
+    list-style: none;
+}
+
+#second-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+#second-part li {
+    list-style: none;
+}
